@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="profile-thumbnail"></div>
+        <div class="profile-name">Praveen YP</div>
+        <h2>Typing Speed Tester</h2>
+        <p class="text-box" id="text-display">The art of typing quickly and accurately is a valuable skill in today's digital world. With practice and dedication, anyone can improve their typing speed and efficiency. Focus on accuracy first, and speed will naturally follow as you develop muscle memory.</p>
+        <textarea id="input-box" placeholder="Start typing here..." oninput="startTyping()"></textarea>
+        <div class="button-group">
+            <button onclick="submitTest()">Submit</button>
+            <button onclick="resetTest()">Restart</button>
+        </div>
+        <p id="result"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
